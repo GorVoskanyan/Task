@@ -19,7 +19,6 @@
 
 
 
-
 # class Names:
 #     def __init__(self,name):
 #         self.name = name
@@ -37,32 +36,32 @@
 #         else:
 #             return f"{k},no"
         
-# sargis=Names('sargis')
+# sargis=Names('sargiskgjhfhgddjddjj')
 # print(sargis.widespread())
 
 
 
 
 
-# import random
+import random
 
-# class HarryPotter:
-#     def game(self):
-#         y=l=0
-#         lst=['Avada Kedavra',"Crucio","Imperio"]
-#         while y!=2 and l!=2:
-#             lord=random.choice(lst)
-#             word=input('enter word >> ')
-#             print(lord)
-#             if word==lord:
-#                 y+=1
-#             else:
-#                 l+=1
-#         if l>y:
-#             return "you lost"
-#         else:
-#             return "you win!!"
+class HarryPotter:
+    def game(self):
+        y=l=0
+        lst=['Avada Kedavra',"Crucio","Imperio"]
+        while y!=2 and l!=2:
+            lord=random.choice(lst)
+            word=input('enter word >> ')
+            print(lord)
+            if word==lord:
+                y+=1
+            else:
+                l+=1
+        if l>y:
+            return "you lost"
+        else:
+            return "you win!!"
 
         
-# a=HarryPotter()
-# print(a.game())
+a=HarryPotter()
+print(a.game())
